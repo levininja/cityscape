@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+}
+#everything{
+    width: 100%;
+    z-index: 1;
+    overflow: hidden;
+}
+#sun{    
+    position: relative;
+    z-index: 10;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nothing{
+    /* dark */
+    background-color: #a00; /* red maroon */
+    background-color: #00a; /* blue indigo */
+    background-color: #0a0; /* green */
+    background-color: #c50; /* orange burnt */
+    background-color: #50a; /* purple deep */
+    /* medium */
+    background-color: #f80; /* orange */
+    background-color: #a05; /* purple fuschia */
+    background-color: #0c6; /* green sea */
+    background-color: #06c; /* blue sea */
+    /* bright */
+    background-color: #dc0; /* yellow gold */
+    background-color: #0dd; /* blue cyan */
+    background-color: #0ad; /* blue baby */
+    background-color: #0da; /* blue teal */
+    background-color: #a0a; /* purple fuschia */
+    /* full */
+    background-color: #ff1; /* yellow */
+    background-color: #5f0; /* green lime */
+    background-color: #f0c; /* purple magenta */
+    background-color: #0ff; /* cyan */
+    background-color: #20e; /* blue indigo */
+    background-color: #f10; /* red */
+    background-color: #fff; /* white */
+    
+    background-color: #a00; /* red maroon */
+    background-color: #00a; /* blue indigo */
+    background-color: #a05; /* purple fuschia */
+    background-color: #20e; /* blue indigo */
+    
+}
+.pastel-pink{
+    background-color: #faf; /* pink */
+}
+.pastel-yellow{
+    background-color: #ffa; /* yellow */
+}
+.pastel-blue{
+    background-color: #aff; /* blue */
+}
+.pastel-orange{
+    background-color: #faa; /* orange */
+}
+.pastel-red{
+    background-color: #f48; /* red */
+}
+.pastel-green{
+    background-color: #afa; /* green */
+}
+.pastel-purple{
+    background-color: #aaf; /* purple */
+}
+.deep-pink{
+    background-color: #f0f;
+}
+.deep-fuschia{
+    background-color: #a05;
+}
+.deep-green{
+    background-color: #0c0;
+}
+.deep-orange{
+    background-color: #f60;
+}
+.deep-yellow{
+    background-color: #ff1;
+}
+
+.building{
+    background-color: black;
+    position: absolute;
+    z-index: 20;
+}
+.light{
+    position: absolute;
+    z-index: 40;
+}
+.artifact{
+    position: absolute;
+    z-index: 30;
+    width: 1px;
+    height: 1px;
+    background-color: black;
+}
+#bottom{
+    position: absolute;
+    background: black;
+    bottom: 0;
+    z-index: 10;
+}
