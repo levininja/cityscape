@@ -1,1 +1,1 @@
-cityscape
+Refresh the page to get a new, randomly-generated cityscape each time.
